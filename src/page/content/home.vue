@@ -1,16 +1,14 @@
 <template>
    <div class="home-wrap">
-     <!--<div style="width:21rem;margin:0 auto;overflow: hidden;position: absolute;">-->
-       <!--<canvas id="canvas"  height="500px" width="500px"></canvas>-->
-     <!--</div>-->
-     <div id="container" class="wow fadeIn"
-          style="width:100%;height:15rem;transform: scale(0.32);position: absolute;top: -2.5rem;left: -8.6rem"></div>
+
+     <!--<div id="container" class="wow fadeIn"></div>-->
 
      <div class="top-wrap wow fadeInLeft">
        <div class="top-content">
          <span>
            全球顶尖的区块链技术服务提供商
          </span>
+         <div id="container" class="wow fadeIn"></div>
        </div>
        <span class="top-content2">CHAINS POWER</span>
      </div>
@@ -297,20 +295,31 @@ export default {
     background-size 100%
     padding 0 1rem
     box-sizing border-box
+    position relative
+
     .top-wrap
       width 100%
       height 18.25rem
       position relative
       .top-content
-        width 15.01rem
+        width 100%
         height 3.7rem
         position absolute
         top 8.96rem
         span
+          display inline-block
+          width 15.01rem
           font-size:1.5rem;
           font-weight:800;
           color:rgba(255,255,255,1);
           line-height:2.25rem;
+          position relative
+          z-index 10
+        #container
+          position: absolute;
+          top: 75%;
+          left: 50%;
+          transform translate(-50%,-50%) scale(0.35)
       .top-content2
         font-size:1.13rem;
         font-weight:400;
