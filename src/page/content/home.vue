@@ -296,7 +296,7 @@ export default {
     padding 0 1rem
     box-sizing border-box
     position relative
-
+    overflow: hidden
     .top-wrap
       width 100%
       height 18.25rem

@@ -4,17 +4,22 @@
         <img src="../assets/img/logo@2x.png" alt="">
       </div>
       <div class="right">
-        <span>English</span>
+        <span @click="golang()">English</span>
         <span class="m">|</span>
         <div class="touch" @touchstart="show()">
-          <img src="../assets/img/ico_mulu@2x.png" alt="">
+
+          <img src="../assets/img/guanbi.png" alt="" class="img2" v-if="choiceShow && message">
+          <img src="../assets/img/ico_mulu@2x.png" alt="" v-else>
         </div>
       </div>
-       <div class="choice" v-show="choiceShow && message">
+      <transition name="fade">
+        <div class="choice" v-if="choiceShow && message">
         <div class="list" @click="goto('/home')"><span :class="{on:isCurrent('/home')}">首页</span></div>
         <div class="list" @click="goto('/solution')" ><span :class="{on:isCurrent('/solution')}">解决方案</span></div>
+        <div class="list" @click="liandong()"><span>链动云</span></div>
         <div class="list" @click="goto('/information')"><span :class="{on:isCurrent('/information')}">资讯动态</span></div>
       </div>
+      </transition>
     </div>
 </template>
 <script>
@@ -71,6 +76,14 @@
           } else if (scrollTop <= 0){
             document.getElementsByClassName('header-wrap')[0].classList.remove('blue')
           }
+        },
+
+        golang() {
+          window.location.href = "http://mobile.chainsdir.com/en/";
+        },
+
+        liandong() {
+          window.location.href = "http://www.usdt.net";
         }
       },
 
@@ -82,6 +95,14 @@
     }
 </script>
 <style scoped lang="stylus">
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity 0.6s
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+  }
+
+
   .blue
     background linear-gradient(180deg,rgba(5,5,128,0.9),rgba(14,14,100,0.9));
   .header-wrap
@@ -114,6 +135,7 @@
       margin-right 1rem
       display flex
       justify-content space-between
+      position relative
       span
         font-size 0.75rem
         font-weight:500;
@@ -131,10 +153,18 @@
         img
           width 1.13rem
           height 0.72rem
+          position absolute
+          top 0.1rem
+          right 0.5rem
+        .img2
+          width 1rem
+          height 1rem
+          top:0
+          right 0.6rem
     .choice
         width 6.25rem
-        height 8.5rem
-        background:rgba(255,255,255,1);
+        //height 8.5rem
+        background: #2B2EB2
         border-radius:0.5rem;
         position absolute
         top 3rem
@@ -143,18 +173,19 @@
         box-sizing border-box
         overflow hidden
         z-index 999
+        //transition all linear 2s
         .list
           width 100%
           height 2.78rem
-          border-bottom  1px solid rgba(238,238,238,1)
+          //border-bottom  1px solid rgba(238,238,238,1)
           text-align center
           line-height 2.78rem
           span
             font-size:0.94rem;
             font-weight:bold;
-            color:rgba(51,51,51,1);
+            color: #ffffff
           .on
-            color #0E0F5B
+            color rgb(0, 255, 255)
 
 
 

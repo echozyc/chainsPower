@@ -29,18 +29,22 @@
          <div class="solution-middle-list wow fadeInLeft" @click="goto('/solution/otc')">
            <img src="../../assets/img/icon_1.png" alt="">
            <p>OTC场外<br>交易系统</p>
+           <img src="../../assets/img/liaojiegengduo.png" alt="" class="moreImg">
          </div>
          <div class="solution-middle-list  wow fadeInLeft" @click="goto('/solution/bibi')">
            <img src="../../assets/img/icon_2.png" alt="">
            <p>币币交易<br>系统</p>
+           <img src="../../assets/img/liaojiegengduo.png" alt="" class="moreImg">
          </div>
          <div class="solution-middle-list  wow fadeInRight" @click="goto('/solution/futures')">
            <img src="../../assets/img/icon_3.png" alt="">
            <p>期货交易<br>系统</p>
+           <img src="../../assets/img/liaojiegengduo.png" alt="" class="moreImg">
          </div>
          <div class="solution-middle-list  wow fadeInRight" @click="goto('/solution/robot')">
            <img src="../../assets/img/icon_4.png" alt="">
            <p>机器人</p>
+           <img src="../../assets/img/liaojiegengduo.png" alt="" class="moreImg">
          </div>
 
        </div>
@@ -51,7 +55,6 @@
        <div class="solution-bottom-title wow fadeInUp">
          <img src="../../assets/img/xiaoshu.png" alt="">
          <span>钱包系统解决方案</span>
-
        </div>
        <div class="solution-bottom-text wow fadeInUp">
          <span>去中心化钱包 &nbsp&nbsp |&nbsp&nbsp 中心化钱包</span>
@@ -206,7 +209,7 @@
 
       .solution-middle-lists
         width 100%
-        height 6.69rem
+        height 6.99rem
         //background white
         margin-top 1.13rem
         display flex
@@ -219,15 +222,20 @@
           text-align center
           float left
           background #0D34A4
+          position relative
           img
             width 2.5rem
             height 2.5rem
-            margin 0.84rem auto 0.49rem
+            margin 0.54rem auto 0.49rem
           p
             font-size:0.75rem;
             font-weight:500;
             color:rgba(255,255,255,1);
             line-height:1.24rem;
+          .moreImg
+            position absolute
+            bottom -2rem
+            left 1.3rem
 
 
 

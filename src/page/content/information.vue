@@ -251,8 +251,11 @@
           background #22208D
           float left
           text-align center
+          overflow hidden
           img
+            width auto
             height 100%
+            margin 0 auto
         .information-text
           float right
           width 11.89rem
@@ -294,7 +297,7 @@
       //left: -0.5rem
 
     .information-textWrap
-      margin-bottom 6rem
+      margin-bottom 13rem
       .text-wrap
         width 100%
         height 30rem
@@ -325,6 +328,7 @@
            line-height:0.63rem;
            opacity:0.6;
         .content
+          margin-bottom 7rem
           p
             font-size:0.75rem;
             font-weight:500;
