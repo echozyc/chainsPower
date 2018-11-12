@@ -14,9 +14,15 @@
       </div>
       <transition name="fade">
         <div class="choice" v-if="choiceShow && message">
+
         <div class="list" @click="goto('/home')"><span :class="{on:isCurrent('/home')}">首页</span></div>
+
         <div class="list" @click="goto('/solution')" ><span :class="{on:isCurrent('/solution')}">解决方案</span></div>
+
+        <div class="list" @click="goto('/promote')" ><span :class="{on:isCurrent('/promote')}">全案推广</span></div>
+
         <div class="list" @click="liandong()"><span>链动云</span></div>
+
         <div class="list" @click="goto('/information')"><span :class="{on:isCurrent('/information')}">资讯动态</span></div>
       </div>
       </transition>
@@ -39,6 +45,7 @@
       },
 
       methods: {
+
         //展示列表
         show() {
           this.choiceShow = !this.choiceShow
