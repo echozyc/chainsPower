@@ -134,6 +134,8 @@
   }
 </script>
 <style scoped lang="stylus">
+
+
   .wallat-wrap
     width 100%
     //height 116rem

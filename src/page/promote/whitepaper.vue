@@ -237,7 +237,7 @@
           text-align center
           float left
           margin-top 0.25rem
-          margin-right 0.24rem
+          margin-right 0.23rem
           &:nth-child(4n)
             margin-right 0
           img

@@ -62,7 +62,7 @@
         <img src="../../assets/img/quanantuiguang_pic_3.png" alt="">
         <img src="../../assets/img/siyi.png" alt="" class="min">
       </div>
-      <div class="button wow fadeInUp" @click="goto('/solution/wallat')">
+      <div class="button wow fadeInUp"  @click="goto('/promote/community')">
         <span>了解更多</span>
         <img src="../../assets/img/jiantou.png" alt="">
       </div>
@@ -118,7 +118,7 @@
     box-sizing border-box
     .solution-top-wrap
       width 100%
-      height 33.84rem
+      //height 33.84rem
       //background #C81623
       overflow hidden
       .solution-top-title

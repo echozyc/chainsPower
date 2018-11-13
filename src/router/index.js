@@ -15,6 +15,7 @@ const Wallat = () => import ('../page/solution/wallat')
 
 const WhitePaper = () => import ('../page/promote/whitepaper')
 const Brand = () => import ('../page/promote/brand')
+const Community = () => import ('../page/promote/community')
 
 // Router.prototype.goBack = function () {
 //   this.isBack = true
@@ -82,6 +83,10 @@ export default new Router({
         {
           path: '/promote/brand',
           component: Brand
+        },
+        {
+          path: '/promote/community',
+          component: Community
         },
   ]
 })
