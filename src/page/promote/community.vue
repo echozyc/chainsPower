@@ -23,7 +23,7 @@
 
         <div class="top-list wow fadeInUp an3">
           <img src="../../assets/img/icon-c.png" alt="">
-          <p class="p1">解决管理难</p>
+          <p class="p1">解决管理难题</p>
           <p class="p2">数据赋能生态<br>
             创新会员管理</p>
         </div>

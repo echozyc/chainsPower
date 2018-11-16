@@ -49,7 +49,7 @@
     <div class="solution-bottom-wrap">
       <div class="solution-bottom-title wow fadeInUp">
         <img src="../../assets/img/xiaoshu.png" alt="">
-        <span>提供白皮书全案策划</span>
+        <span>社群孵化服务</span>
       </div>
       <div class="text wow fadeInUp">
         <span>
