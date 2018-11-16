@@ -6,81 +6,81 @@
          <span>白皮书服务，让您的产品脱颖而出</span>
        </div>
 
-       <p class="text-title">
+       <p class="text-title wow fadeInUp">
          一站式金牌服务保驾护航
        </p>
 
        <div class="top-lists">
-         <div class="top-list">
+         <div class="top-list wow fadeInUp an1">
            <img src="../../assets/img/ico_baipishu_1.png" alt="">
            <p>市场调研<br>
              分析</p>
          </div>
-         <div class="top-list">
+         <div class="top-list wow fadeInUp an2">
            <img src="../../assets/img/ico_baipishu_2.png" alt="">
            <p>价值生态<br>
              设计
            </p>
          </div>
-         <div class="top-list">
+         <div class="top-list wow fadeInUp an3">
            <img src="../../assets/img/ico_baipishu_3.png" alt="">
            <p>产业链生<br>
              态设计</p>
          </div>
-         <div class="top-list">
+         <div class="top-list wow fadeInUp an4">
            <img src="../../assets/img/ico_baipishu_4.png" alt="">
            <p>技术应用<br>
              设计</p>
          </div>
 
-         <div class="top-list">
+         <div class="top-list wow fadeInUp an2">
            <img src="../../assets/img/ico_baipishu_5.png" alt="">
            <p>发展规划<br>
              设计</p>
          </div>
-         <div class="top-list">
+         <div class="top-list wow fadeInUp an3">
            <img src="../../assets/img/ico_baipishu_6.png" alt="">
            <p>团队成员<br>
              包装</p>
          </div>
-         <div class="top-list">
+         <div class="top-list wow fadeInUp an4">
            <img src="../../assets/img/ico_baipishu_7.png" alt="">
            <p>基金会<br>
              包装</p>
          </div>
-         <div class="top-list">
+         <div class="top-list wow fadeInUp an5">
            <img src="../../assets/img/ico_baipishu_8.png" alt="">
            <p>Token分配<br>
              设计 </p>
          </div>
 
-         <div class="top-list">
+         <div class="top-list wow fadeInUp an3">
            <img src="../../assets/img/ico_baipishu_9.png" alt="">
            <p>技术架构<br>
              设计</p>
          </div>
-         <div class="top-list">
+         <div class="top-list wow fadeInUp an4">
            <img src="../../assets/img/ico_baipishu_10.png" alt="">
            <p>应用架构<br>
              设计</p>
          </div>
-         <div class="top-list">
+         <div class="top-list wow fadeInUp an5">
            <img src="../../assets/img/ico_baipishu_11.png" alt="">
            <p>形象设计<br>
              服务</p>
          </div>
-         <div class="top-list">
+         <div class="top-list wow fadeInUp an6">
            <img src="../../assets/img/ico_baipishu_12.png" alt="">
            <p>ERC 2.0代<br>
              币发行</p>
          </div>
 
-         <div class="top-list">
+         <div class="top-list wow fadeInUp an4">
            <img src="../../assets/img/ico_baipishu_13.png" alt="">
            <p>基金使用<br>
              计划</p>
          </div>
-         <div class="top-list">
+         <div class="top-list wow fadeInUp an5">
            <img src="../../assets/img/ico_baipishu_14.png" alt="">
            <p>白皮书<br>
              翻译</p>
@@ -95,11 +95,11 @@
          <span>专业服务流程</span>
        </div>
 
-       <p class="text-title">
+       <p class="text-title  wow fadeInUp">
          链动科技提供一对一的贴心服务
        </p>
 
-       <div class="bottom-lists">
+       <div class="bottom-lists  wow fadeInUp">
          <div class="swiper-container c1">
            <div class="swiper-wrapper">
              <div class="swiper-slide">
@@ -186,6 +186,19 @@
     }
 </script>
 <style scoped lang="stylus">
+  .an1
+    animation-delay:0.1s
+  .an2
+    animation-delay:0.2s
+  .an3
+    animation-delay:0.3s
+  .an4
+    animation-delay:0.4s
+  .an5
+    animation-delay:0.5s
+  .an6
+    animation-delay:0.6s
+
   .whitePaper-wrap
     width 100%
     //height 79.13rem

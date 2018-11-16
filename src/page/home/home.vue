@@ -135,21 +135,102 @@
          <img src="../../assets/img/PAETENER@2x.png" alt="">
          <p>合作伙伴</p>
        </div>
-       <div class="partner-lists">
-         <div class="partner-list wow zoomIn"><img src="../../assets/img/logo_1@2x.png" alt=""></div>
-         <div class="partner-list wow zoomIn"><img src="../../assets/img/logo_2@2x.png" alt=""></div>
-         <div class="partner-list wow zoomIn"><img src="../../assets/img/logo_3@2x.png" alt=""></div>
-         <div class="partner-list wow zoomIn"><img src="../../assets/img/logo_4@2x.png" alt=""></div>
-         <div class="partner-list wow zoomIn"><img src="../../assets/img/logo_5@2x.png" alt=""></div>
-         <div class="partner-list wow zoomIn"><img src="../../assets/img/logo_6@2x.png" alt=""></div>
-         <div class="partner-list wow zoomIn"><img src="../../assets/img/logo_7@2x.png" alt=""></div>
-         <div class="partner-list wow zoomIn"><img src="../../assets/img/logo_8@2x.png" alt=""></div>
-         <div class="partner-list wow zoomIn"><img src="../../assets/img/logo_9@2x.png" alt=""></div>
+       <!--<div class="partner-lists">-->
+         <!--<div class="partner-list wow zoomIn"><img src="../../assets/img/logo_1@2x.png" alt=""></div>-->
+         <!--<div class="partner-list wow zoomIn"><img src="../../assets/img/logo_2@2x.png" alt=""></div>-->
+         <!--<div class="partner-list wow zoomIn"><img src="../../assets/img/logo_3@2x.png" alt=""></div>-->
+         <!--<div class="partner-list wow zoomIn"><img src="../../assets/img/logo_4@2x.png" alt=""></div>-->
+         <!--<div class="partner-list wow zoomIn"><img src="../../assets/img/logo_5@2x.png" alt=""></div>-->
+         <!--<div class="partner-list wow zoomIn"><img src="../../assets/img/logo_6@2x.png" alt=""></div>-->
+         <!--<div class="partner-list wow zoomIn"><img src="../../assets/img/logo_7@2x.png" alt=""></div>-->
+         <!--<div class="partner-list wow zoomIn"><img src="../../assets/img/logo_8@2x.png" alt=""></div>-->
+         <!--<div class="partner-list wow zoomIn"><img src="../../assets/img/logo_9@2x.png" alt=""></div>-->
 
+       <!--</div>-->
+       <div class="brand-bottom-lists">
+         <div class="brand-list wow fadeInUp an1">
+           <img src="../../assets/img/logo_1.png" alt="">
+         </div>
+         <div class="brand-list wow fadeInUp an2">
+           <img src="../../assets/img/logo_2.png" alt="">
+         </div>
+         <div class="brand-list wow fadeInUp an3">
+           <img src="../../assets/img/logo_3.png" alt="">
+         </div>
+         <div class="brand-list wow fadeInUp an1">
+           <img src="../../assets/img/logo_4.png" alt="">
+         </div>
+         <div class="brand-list wow fadeInUp an2">
+           <img src="../../assets/img/logo_5.png" alt="">
+         </div>
+
+         <div class="brand-list wow fadeInUp an3">
+           <img src="../../assets/img/logo_6.png" alt="">
+         </div>
+         <div class="brand-list wow fadeInUp an1">
+           <img src="../../assets/img/logo_7.png" alt="">
+         </div>
+         <div class="brand-list wow fadeInUp an2">
+           <img src="../../assets/img/logo_8.png" alt="">
+         </div>
+         <div class="brand-list wow fadeInUp an3">
+           <img src="../../assets/img/logo_9.png" alt="">
+         </div>
+         <div class="brand-list wow fadeInUp an1">
+           <img src="../../assets/img/logo_10.png" alt="">
+         </div>
+
+         <div class="brand-list wow fadeInUp an2">
+           <img src="../../assets/img/logo_11.png" alt="">
+         </div>
+         <div class="brand-list wow fadeInUp an3">
+           <img src="../../assets/img/logo_12.png" alt="">
+         </div>
+         <div class="brand-list wow fadeInUp an1">
+           <img src="../../assets/img/logo_13.png" alt="">
+         </div>
+         <div class="brand-list wow fadeInUp an2">
+           <img src="../../assets/img/logo_14.png" alt="">
+         </div>
+         <div class="brand-list wow fadeInUp an3">
+           <img src="../../assets/img/logo_15.png" alt="">
+         </div>
+
+         <div class="brand-list wow fadeInUp an1">
+           <img src="../../assets/img/logo_16.png" alt="">
+         </div>
+         <div class="brand-list wow fadeInUp an2">
+           <img src="../../assets/img/logo_17.png" alt="">
+         </div>
+         <div class="brand-list wow fadeInUp an3">
+           <img src="../../assets/img/logo_18.png" alt="">
+         </div>
+         <div class="brand-list wow fadeInUp an1">
+           <img src="../../assets/img/logo_19.png" alt="">
+         </div>
+         <div class="brand-list wow fadeInUp an2">
+           <img src="../../assets/img/logo_20.png" alt="">
+         </div>
+
+         <div class="brand-list wow fadeInUp an3">
+           <img src="../../assets/img/logo_21.png" alt="">
+         </div>
+         <div class="brand-list wow fadeInUp an1">
+           <img src="../../assets/img/logo_22.png" alt="">
+         </div>
+         <div class="brand-list wow fadeInUp an2">
+           <img src="../../assets/img/logo_23.png" alt="">
+         </div>
+         <div class="brand-list wow fadeInUp an3">
+           <img src="../../assets/img/logo_24.png" alt="">
+         </div>
+         <div class="brand-list wow fadeInUp an1">
+           <img src="../../assets/img/logo_25.png" alt="">
+         </div>
        </div>
      </div>
 
-     <footers class="wow fadeInRight"></footers>
+     <footers class="wow fadeInUp"></footers>
    </div>
 </template>
 <script>
@@ -288,6 +369,20 @@ export default {
 }
 </script>
 <style scoped lang="stylus">
+  .an1
+    animation-delay:0.1s
+  .an2
+    animation-delay:0.2s
+  .an3
+    animation-delay:0.3s
+  .an4
+    animation-delay:0.4s
+  .an5
+    animation-delay:0.5s
+  .an6
+    animation-delay:0.6s
+
+
   .home-wrap
     width 23.44rem
     //height 158.82rem
@@ -498,7 +593,7 @@ export default {
 
     .partner-wrap
       width 100%
-      height 16.91rem
+      height 33.91rem
       //background aqua
       overflow hidden
       .partner-title
@@ -534,6 +629,19 @@ export default {
           img
             width 100%
             height 100%
+      .brand-bottom-lists
+        margin-top 1.5rem
+        .brand-list
+          width 6.75rem
+          height 2.19rem
+          float left
+          margin-top 0.63rem
+          margin-right 0.55rem
+          img
+            width 100%
+            height 100%
+          &:nth-child(3n)
+            margin-right 0
 
 
 

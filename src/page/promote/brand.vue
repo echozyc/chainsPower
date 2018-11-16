@@ -6,12 +6,12 @@
           <span>品牌创意策划</span>
         </div>
 
-        <p class="text-title">
+        <p class="text-title wow fadeInUp">
           品牌推广,让您的品牌覆盖互联网每个角落
         </p>
 
         <div class="brand-lists">
-          <div class="list-top t1">
+          <div class="list-top t1 wow fadeInUp an1">
             <p class="top-title">
               品牌标识
             </p>
@@ -19,9 +19,10 @@
               品牌logo创意策划<br>
               及VI高端设计
             </p>
+            <img src="../../assets/img/a2.png" alt="" class="m1">
           </div>
 
-          <div class="list-top t2">
+          <div class="list-top t2 wow fadeInUp an2">
             <p class="top-title">
               品牌宣传物料
             </p>
@@ -30,11 +31,13 @@
               吸粉易拉宝创意策划及设<br>
               计、吸粉文案撰写
             </p>
-
+            <img src="../../assets/img/xuanchuanwuliaoshenqing_huaban@2x.png" alt="" class="m2">
           </div>
 
-          <div class="list-bottom">
+          <div class="list-bottom wow fadeInUp an3">
+
             <p class="bottom-title">品牌画册&PPT</p>
+
             <div class="menu" @touchend="show(1)" :class="{on:isCurrent(1)}">
               <span>品牌部分</span>
             </div>
@@ -44,6 +47,8 @@
             <div class="menu" @touchend="show(3)" :class="{on:isCurrent(3)}">
               <span>项目部分</span>
             </div>
+
+            <img src="../../assets/img/a1.png" alt="" class="m3">
 
             <div class="bottom-right">
               <p v-show="this.isShow === 3">
@@ -68,7 +73,7 @@
           <span>金牌区块链营销方案</span>
         </div>
 
-        <div class="banner-wrap">
+        <div class="banner-wrap wow fadeInUp">
           <div class="banner">
             <div class="swiper-container c2" style="overflow: auto">
               <div class="swiper-wrapper">
@@ -126,87 +131,87 @@
       <div class="brand-bottom">
         <div class="solution-top-title  wow fadeInUp">
           <img src="../../assets/img/xiaoshu.png" alt="">
-          <span>品牌创意策划</span>
+          <span>合作媒体</span>
         </div>
 
         <div class="brand-bottom-lists">
-          <div class="brand-list">
+          <div class="brand-list wow fadeInUp an1">
             <img src="../../assets/img/logo_1.png" alt="">
           </div>
-          <div class="brand-list">
+          <div class="brand-list wow fadeInUp an2">
             <img src="../../assets/img/logo_2.png" alt="">
           </div>
-          <div class="brand-list">
+          <div class="brand-list wow fadeInUp an3">
             <img src="../../assets/img/logo_3.png" alt="">
           </div>
-          <div class="brand-list">
+          <div class="brand-list wow fadeInUp an1">
             <img src="../../assets/img/logo_4.png" alt="">
           </div>
-          <div class="brand-list">
+          <div class="brand-list wow fadeInUp an2">
             <img src="../../assets/img/logo_5.png" alt="">
           </div>
 
-          <div class="brand-list">
+          <div class="brand-list wow fadeInUp an3">
             <img src="../../assets/img/logo_6.png" alt="">
           </div>
-          <div class="brand-list">
+          <div class="brand-list wow fadeInUp an1">
             <img src="../../assets/img/logo_7.png" alt="">
           </div>
-          <div class="brand-list">
+          <div class="brand-list wow fadeInUp an2">
             <img src="../../assets/img/logo_8.png" alt="">
           </div>
-          <div class="brand-list">
+          <div class="brand-list wow fadeInUp an3">
             <img src="../../assets/img/logo_9.png" alt="">
           </div>
-          <div class="brand-list">
+          <div class="brand-list wow fadeInUp an1">
             <img src="../../assets/img/logo_10.png" alt="">
           </div>
 
-          <div class="brand-list">
+          <div class="brand-list wow fadeInUp an2">
             <img src="../../assets/img/logo_11.png" alt="">
           </div>
-          <div class="brand-list">
+          <div class="brand-list wow fadeInUp an3">
             <img src="../../assets/img/logo_12.png" alt="">
           </div>
-          <div class="brand-list">
+          <div class="brand-list wow fadeInUp an1">
             <img src="../../assets/img/logo_13.png" alt="">
           </div>
-          <div class="brand-list">
+          <div class="brand-list wow fadeInUp an2">
             <img src="../../assets/img/logo_14.png" alt="">
           </div>
-          <div class="brand-list">
+          <div class="brand-list wow fadeInUp an3">
             <img src="../../assets/img/logo_15.png" alt="">
           </div>
 
-          <div class="brand-list">
+          <div class="brand-list wow fadeInUp an1">
             <img src="../../assets/img/logo_16.png" alt="">
           </div>
-          <div class="brand-list">
+          <div class="brand-list wow fadeInUp an2">
             <img src="../../assets/img/logo_17.png" alt="">
           </div>
-          <div class="brand-list">
+          <div class="brand-list wow fadeInUp an3">
             <img src="../../assets/img/logo_18.png" alt="">
           </div>
-          <div class="brand-list">
+          <div class="brand-list wow fadeInUp an1">
             <img src="../../assets/img/logo_19.png" alt="">
           </div>
-          <div class="brand-list">
+          <div class="brand-list wow fadeInUp an2">
             <img src="../../assets/img/logo_20.png" alt="">
           </div>
 
-          <div class="brand-list">
+          <div class="brand-list wow fadeInUp an3">
             <img src="../../assets/img/logo_21.png" alt="">
           </div>
-          <div class="brand-list">
+          <div class="brand-list wow fadeInUp an1">
             <img src="../../assets/img/logo_22.png" alt="">
           </div>
-          <div class="brand-list">
+          <div class="brand-list wow fadeInUp an2">
             <img src="../../assets/img/logo_23.png" alt="">
           </div>
-          <div class="brand-list">
+          <div class="brand-list wow fadeInUp an3">
             <img src="../../assets/img/logo_24.png" alt="">
           </div>
-          <div class="brand-list">
+          <div class="brand-list wow fadeInUp an1">
             <img src="../../assets/img/logo_25.png" alt="">
           </div>
         </div>
@@ -289,6 +294,19 @@
     }
 </script>
 <style scoped lang="stylus">
+  .an1
+    animation-delay:0.1s
+  .an2
+    animation-delay:0.2s
+  .an3
+    animation-delay:0.3s
+  .an4
+    animation-delay:0.4s
+  .an5
+    animation-delay:0.5s
+  .an6
+    animation-delay:0.6s
+
   .swiper-slide {
     background-position: center;
     background-size: cover;
@@ -347,6 +365,7 @@
           background:rgba(13,52,164,1);
           border-radius:0.3rem;
           text-align center
+          position relative
           .top-title
             font-size:0.94rem;
             font-weight:bold;
@@ -359,6 +378,19 @@
             color:rgba(255,255,255,1);
             line-height:1.13rem;
             margin-top 1.38rem
+          .m1
+            width 7.37rem
+            height 2.26rem
+            position absolute
+            bottom 0.81rem
+            right 0
+          .m2
+            width 4.34rem
+            height 4.5rem
+            position absolute
+            bottom 0
+            right 0
+
         .t1
           float left
         .t2
@@ -389,11 +421,19 @@
             border-radius:1rem;
             margin-top 0.5rem
             margin-left 2.66rem
+            position relative
+            z-index 10
             span
               font-size:0.75rem;
               font-weight:bold;
               color:rgba(0,255,223,1);
               line-height:0.81rem;
+          .m3
+            width 7.06rem
+            height 5.66rem
+            position absolute
+            bottom 0
+            left 0.87rem
           .bottom-right
             width:11.78rem;
             height:8.19rem;

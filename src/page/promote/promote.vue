@@ -5,7 +5,7 @@
         <img src="../../assets/img/xiaoshu.png" alt="">
         <span>提供白皮书全案策划</span>
       </div>
-      <div class="text">
+      <div class="text wow fadeInUp">
         <span>
           专业的品牌策划团队撰写白皮书，进行项目的行业分析、生态圈设计、产业链设计、技术架构的应用设计、项目发展规划、基金设计、
           团队成员包装、基金会架构设计、Token分配设计、技术架构设计、翻译等，并协助发币等一站式服务。
@@ -28,7 +28,7 @@
         <span>提供品牌策划及媒体推广全案</span>
 
       </div>
-      <div class="text">
+      <div class="text wow fadeInUp">
         <span>
           从策划、设计、传播到营销实战，链动提供一站式品牌全案服务。打造商业价值体系，
           每个项目的策划我们都会赋予他的准确文化、理念、精神、与价值定位，并联合50000家媒体共同推进您的项目。
@@ -51,7 +51,7 @@
         <img src="../../assets/img/xiaoshu.png" alt="">
         <span>提供白皮书全案策划</span>
       </div>
-      <div class="text">
+      <div class="text wow fadeInUp">
         <span>
           引入真实区块链粉丝，快速组建区块链社群。搭建自己的长期流量池，不再局限平台赋予的流量。<br><br>
 
@@ -109,6 +109,10 @@
   }
 </script>
 <style scoped lang="stylus">
+
+
+
+
   .solution-wrap
     width 100%
     //height 79.13rem
@@ -170,6 +174,7 @@
         background:linear-gradient(90deg,rgba(43,88,245,1),rgba(0,246,255,1));
         border-radius:0.3rem;
         margin-top 1.56rem
+        margin-bottom 2rem
         text-align center
         span
           font-size:0.94rem;
@@ -194,7 +199,7 @@
         height 1.84rem
         line-height 1.84rem
         //background aqua
-        margin-top 3.4rem
+        margin-top 1.4rem
         position relative
         img
           width 2.03rem
