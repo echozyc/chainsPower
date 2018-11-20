@@ -2,7 +2,7 @@
 const urls = {
   server :{
     development: 'http://47.97.198.80:8080/power',
-    // production: 'http://192.168.1.187:8080/power'
+     //production: 'http://192.168.1.206:8080/power'
     production: 'http://47.97.198.80:8080/power'
   },
   //获取资讯

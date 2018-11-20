@@ -35,7 +35,7 @@
       <div class="robot-middle">
         <div class="robot-middle-title wow fadeInRight">
           <img src="../../assets/img/xiaoshu.png" alt="">
-          <span>行情系统机器人</span>
+          <span>交易系统机器人</span>
         </div>
         <p class="robot-middle-text wow fadeInRight">针对交易所，快速自动委托挂单、委托撤单的交易省去平台内的交易委托的一部一部的手续<br><br>
 
