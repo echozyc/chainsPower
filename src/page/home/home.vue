@@ -149,6 +149,29 @@
        <!--</div>-->
        <div class="brand-bottom-lists">
          <div class="brand-list wow fadeInUp an1">
+           <img src="../../assets/img/logo_26@2x.png" alt="">
+         </div>
+         <div class="brand-list wow fadeInUp an2">
+           <img src="../../assets/img/logo_27@2x.png" alt="">
+         </div>
+         <div class="brand-list wow fadeInUp an3">
+           <img src="../../assets/img/logo_28@2x.png" alt="">
+         </div>
+         <div class="brand-list wow fadeInUp an1">
+           <img src="../../assets/img/logo_29@2x.png" alt="">
+         </div>
+         <div class="brand-list wow fadeInUp an2">
+           <img src="../../assets/img/logo_30@2x.png" alt="">
+         </div>
+
+         <div class="brand-list wow fadeInUp an3">
+           <img src="../../assets/img/logo_31@2x.png" alt="">
+         </div>
+         <div class="brand-list wow fadeInUp an1">
+           <img src="../../assets/img/logo_32@2x.png" alt="">
+         </div>
+
+         <div class="brand-list wow fadeInUp an1">
            <img src="../../assets/img/logo_1.png" alt="">
          </div>
          <div class="brand-list wow fadeInUp an2">
@@ -369,18 +392,7 @@ export default {
 }
 </script>
 <style scoped lang="stylus">
-  .an1
-    animation-delay:0.1s
-  .an2
-    animation-delay:0.2s
-  .an3
-    animation-delay:0.3s
-  .an4
-    animation-delay:0.4s
-  .an5
-    animation-delay:0.5s
-  .an6
-    animation-delay:0.6s
+
 
 
   .home-wrap
@@ -593,7 +605,7 @@ export default {
 
     .partner-wrap
       width 100%
-      height 33.91rem
+      height 38.91rem
       //background aqua
       overflow hidden
       .partner-title
