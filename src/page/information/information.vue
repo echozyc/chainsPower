@@ -9,45 +9,42 @@
         </div>
       </div>
 
-      <div class="information-content wow fadeInUp" v-show="showList"
-           v-infinite-scroll="loadMore"
-           infinite-scroll-disabled="loading"
-           infinite-scroll-distance="10">
-        <div class="information-list" v-for="(i) in information"  @click="detailContent(i.id)">
-          <div class="infotmation-img">
-            <img :src="i.mainImgAbsolute" alt="">
-          </div>
-          <div class="information-text">
-            <p class="title">{{i.title}}</p>
-            <div class="content-wrap">
-              <p class="content">{{i.abstracts}}</p>
-            </div>
-            <p class="time">{{i.createTime}}</p>
-          </div>
+      <!--<div class="information-content wow fadeInUp" v-show="showList"-->
+           <!--v-infinite-scroll="loadMore"-->
+           <!--infinite-scroll-disabled="loading"-->
+           <!--infinite-scroll-distance="10">-->
+        <!--<div class="information-list" v-for="(i) in information"  @click="detailContent(i.id)">-->
+          <!--<div class="infotmation-img">-->
+            <!--<img :src="i.mainImgAbsolute" alt="">-->
+          <!--</div>-->
+          <!--<div class="information-text">-->
+            <!--<p class="title">{{i.title}}</p>-->
+            <!--<div class="content-wrap">-->
+              <!--<p class="content">{{i.abstracts}}</p>-->
+            <!--</div>-->
+            <!--<p class="time">{{i.createTime}}</p>-->
+          <!--</div>-->
 
-        </div>
-        <!--<li v-for="item in list">{{ item }}</li>-->
-      </div>
+        <!--</div>-->
+        <!--&lt;!&ndash;<li v-for="item in list">{{ item }}</li>&ndash;&gt;-->
+      <!--</div>-->
 
-      <div class="information-textWrap wow fadeInUp" v-show="showContent">
-        <div class="text-wrap">
-          <div class="text-title">
-            <span>{{detail.title}}</span>
-          </div>
-          <p class="introduce">
-            <span>{{detail.createTime}}</span>
-            <span>来源：{{detail.author}}</span>
-          </p>
-          <div class="content">
-            <p v-html="detail.content"></p>
-          </div>
-        </div>
-      </div>
+      <router-view></router-view>
 
-
-
-
-
+      <!--<div class="information-textWrap wow fadeInUp">-->
+        <!--<div class="text-wrap">-->
+          <!--<div class="text-title">-->
+            <!--<span>{{detail.title}}</span>-->
+          <!--</div>-->
+          <!--<p class="introduce">-->
+            <!--<span>{{detail.createTime}}</span>-->
+            <!--<span>来源：{{detail.author}}</span>-->
+          <!--</p>-->
+          <!--<div class="content">-->
+            <!--<p v-html="detail.content"></p>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
 
       <footers id="f"></footers>
 
@@ -66,13 +63,9 @@
       return {
         information: '',
 
-        showList: true,
-        showContent: false,
-
         id:'',
         detail: '',
 
-        list: [1,2,3,4,5]
       }
     },
 
@@ -81,16 +74,7 @@
     },
 
     methods: {
-      loadMore() {
-        this.loading = true;
-        setTimeout(() => {
-          let last = this.list[this.list.length - 1];
-          for (let i = 1; i <= 10; i++) {
-            this.list.push(last + i);
-          }
-          this.loading = false;
-        }, 2500);
-      },
+
 
 
 
@@ -137,22 +121,16 @@
 
       //点击资讯
       choice1() {
-        this.information = ''
         document.getElementById('s1').style.color = '#0ff'
         document.getElementById('s2').style.color = 'rgba(255,255,255,0.5)'
-        this.getInformation()
-        this.showList = true
-        this.showContent = false
+        this.$router.push('/information/listsZX')
       },
-
+      //
       //点击公告
       choice2() {
-        this.information = ''
         document.getElementById('s2').style.color = '#0ff'
         document.getElementById('s1').style.color = 'rgba(255,255,255,0.5)'
-        this.getAnnouncement()
-        this.showList = true
-        this.showContent = false
+        this.$router.push('/information/listsGG')
       },
 
       //进去详情页 传参数对应id值
@@ -165,13 +143,13 @@
         this.getDetail()
       },
 
-      //获取资讯详情
-      async getDetail() {
-        let res = await api.detail({
-          id: this.id,
-        })
-        this.detail = res.data.data
-      },
+      // //获取资讯详情
+      // async getDetail() {
+      //   let res = await api.detail({
+      //     id: this.id,
+      //   })
+      //   this.detail = res.data.data
+      // },
 
 
     },
@@ -179,8 +157,7 @@
     mounted() {
       this.initHeight()
       this.wow()
-      this.getInformation()
-      this.loadMore()
+      // this.getInformation()
     }
   }
 </script>

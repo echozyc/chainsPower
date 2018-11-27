@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import Meta from 'vue-meta'
 
 const Home = () => import ('../page/home/home')
 const Solution = () => import ('../page/solution/solution')
@@ -17,6 +18,10 @@ const WhitePaper = () => import ('../page/promote/whitepaper')
 const Brand = () => import ('../page/promote/brand')
 const Community = () => import ('../page/promote/community')
 
+const Detail = () => import ('../page/information/detail')
+const ListsZX = () => import ('../page/information/listsZX')
+const ListsGG = () => import ('../page/information/listsGG')
+
 // Router.prototype.goBack = function () {
 //   this.isBack = true
 //   window.history.go(-1)
@@ -24,6 +29,7 @@ const Community = () => import ('../page/promote/community')
 
 
 Vue.use(Router)
+Vue.use(Meta)
 
 export default new Router({
   routes: [
@@ -39,7 +45,23 @@ export default new Router({
     {
       path: '/information',
       component: Information,
+      redirect: '/information/listsZX',
+      children: [
+        {
+          path: '/information/detail',
+          component: Detail,
+        },
+        {
+          path: '/information/listsZX',
+          component: ListsZX,
+        },
+        {
+          path: '/information/listsGG',
+          component: ListsGG,
+        }
+      ]
     },
+
 
 
     {
