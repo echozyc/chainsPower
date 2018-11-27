@@ -1,4 +1,4 @@
-debug
+dev
 
 # web
 
