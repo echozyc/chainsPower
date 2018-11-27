@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Mains></Mains>
-    <p>111</p>
+    <p>222</p>
   </div>
 </template>
 
