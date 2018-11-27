@@ -300,7 +300,7 @@
       margin-bottom 13rem
       .text-wrap
         width 100%
-        height 30rem
+        /*height 30rem*/
         //background #ffffff
         .text-title
           height 3.06rem
