@@ -104,20 +104,20 @@
         wow.init();
       },
 
-      //获取资讯列表
-      async getInformation() {
-        let res = await api.information({
-        })
-        this.information = res.data.data.list
-        console.log(this.information)
-      },
-
-      //获取公告列表
-      async getAnnouncement() {
-        let res = await api.announcement({
-        })
-        this.information = res.data.data.list
-      },
+      // //获取资讯列表
+      // async getInformation() {
+      //   let res = await api.information({
+      //   })
+      //   this.information = res.data.data.list
+      //   console.log(this.information)
+      // },
+      //
+      // //获取公告列表
+      // async getAnnouncement() {
+      //   let res = await api.announcement({
+      //   })
+      //   this.information = res.data.data.list
+      // },
 
       //点击资讯
       choice1() {
@@ -134,14 +134,14 @@
       },
 
       //进去详情页 传参数对应id值
-      detailContent(id) {
-        this.detail = ''
-        this.id = id
-        this.showList = false
-        this.showContent = true
-        window.scrollTo(0,0);
-        this.getDetail()
-      },
+      // detailContent(id) {
+      //   this.detail = ''
+      //   this.id = id
+      //   this.showList = false
+      //   this.showContent = true
+      //   window.scrollTo(0,0);
+      //   this.getDetail()
+      // },
 
       // //获取资讯详情
       // async getDetail() {
