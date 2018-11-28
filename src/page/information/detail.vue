@@ -27,7 +27,8 @@
         // 这里定义titleTemplate会覆盖App.vue中的定义
         // titleTemplate: this.detail.title,
         meta: [
-          { name: 'description', itemprop: "description", content: this.detail.abstracts}
+          { name: 'description', itemprop: "description", content: this.detail.abstracts},
+          { itemprop: "image", content: this.detail.mainImg}
         ]
       }
     },
