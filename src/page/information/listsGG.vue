@@ -5,7 +5,7 @@
         <img :src="i.mainImgAbsolute" alt="">
       </div>
       <div class="information-text">
-        <p class="title">{{i.title}}111</p>
+        <p class="title">{{i.title}}</p>
         <div class="content-wrap">
           <p class="content">{{i.abstracts}}</p>
         </div>
