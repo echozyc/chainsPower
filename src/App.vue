@@ -9,6 +9,10 @@ import Mains from './page/mains'
 export default {
   name: 'App',
 
+  metaInfo: {
+    title: '链动科技 - 全球顶尖的区块链技术服务提供商'
+  },
+
   components: {
     Mains
   },
