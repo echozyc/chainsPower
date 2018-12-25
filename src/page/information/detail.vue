@@ -26,10 +26,9 @@
         title: this.detail.title,
         // 这里定义titleTemplate会覆盖App.vue中的定义
         // titleTemplate: this.detail.title,
-        meta: [
-          { name: 'description', itemprop: "description", content: this.detail.abstracts},
-          { itemprop: "image", content: this.detail.mainImg}
-        ]
+        // meta: [
+        //   { name: 'description', itemprop: "description", content: this.detail.abstracts},
+        // ]
       }
     },
 
@@ -61,6 +60,7 @@
         });
         console.log(res.data.data)
         this.detail = res.data.data
+
       },
 
     },
@@ -68,7 +68,7 @@
     mounted() {
      this.id = this.$route.query.id;
      this.wow();
-     this.getDetail()
+     this.getDetail();
     }
   }
 </script>
