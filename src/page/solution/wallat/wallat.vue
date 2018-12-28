@@ -2,7 +2,7 @@
   <div class="wallat-wrap">
     <div class="wallat-top">
       <div class="otc-top-title wow fadeInUp">
-        <img src="../../assets/img/xiaoshu.png" alt="">
+        <img src="../../../assets/img/xiaoshu.png" alt="">
         <span>钱包系统解决方案</span>
       </div>
       <div class="wallat-top-lists">
@@ -14,7 +14,7 @@
             提供最安全、高效、全面的链上资产服务。支持多链一站式资产管理。采用HD钱包技术，
             多重签名加密保障数字资产安全。更有海量时时行情资讯，掌握一手区块链动态。
           </span>
-          <img src="../../assets/img/wallet_ico_1.png" alt="">
+          <img src="../../../assets/img/wallet_ico_1.png" alt="">
         </div>
         <div class="wallat-top-list wow fadeInRight">
           <p class="list-title">
@@ -24,7 +24,7 @@
             支持跨交易所交易，提供更加便捷的链上资产交易服务，支持多链一站式资产管理。通过专业的安全系统、
             风控系统、冷热钱包系统、财务监控系统等，多维度保障数字资产安全。
           </span>
-          <img src="../../assets/img/wallet_ico_2.png" alt="">
+          <img src="../../../assets/img/wallet_ico_2.png" alt="">
         </div>
       </div>
 
@@ -32,7 +32,7 @@
 
     <div class="wallat-middle">
       <div class="wallat-middle-title wow fadeInUp">
-        <img src="../../assets/img/xiaoshu.png" alt="">
+        <img src="../../../assets/img/xiaoshu.png" alt="">
         <span>安全、便捷、高效、独特<br>
          的数字资产管理工具</span>
       </div>
@@ -44,7 +44,7 @@
         <p>便携式资产管理</p>
       </div>
       <div class="wallat-middle-img wow zoomIn">
-        <img src="../../assets/img/phone_1.png" alt="">
+        <img src="../../../assets/img/phone_1.png" alt="">
       </div>
       <div class="texts texts2 wow fadeInUp">
         <p>多币种一体式存储</p>
@@ -54,33 +54,33 @@
         <p>便携式资产管理</p>
       </div>
       <div class="wallat-middle-img wow zoomIn">
-        <img src="../../assets/img/phone_2.png" alt="">
+        <img src="../../../assets/img/phone_2.png" alt="">
       </div>
     </div>
 
     <div class="wallat-bottom">
       <div class="otc-top-title wow fadeInUp">
-        <img src="../../assets/img/xiaoshu.png" alt="">
+        <img src="../../../assets/img/xiaoshu.png" alt="">
         <span>多元化解决方案</span>
       </div>
       <div class="wallat-bottom-lists wow fadeInUp">
         <div class="wallat-bottom-list">
-          <img src="../../assets/img/wallet_ico_3.png" alt="">
+          <img src="../../../assets/img/wallet_ico_3.png" alt="">
           <p>钱包+理财<br>
             投资、借贷</p>
         </div>
         <div class="wallat-bottom-list">
-          <img src="../../assets/img/wallet_ico_4.png" alt="">
+          <img src="../../../assets/img/wallet_ico_4.png" alt="">
           <p>钱包+数字<br>
             商城</p>
         </div>
         <div class="wallat-bottom-list">
-          <img src="../../assets/img/wallet_ico_5.png" alt="">
+          <img src="../../../assets/img/wallet_ico_5.png" alt="">
           <p>钱包+数字资<br>
             产行情资讯</p>
         </div>
         <div class="wallat-bottom-list">
-          <img src="../../assets/img/wallet_ico_6.png" alt="">
+          <img src="../../../assets/img/wallet_ico_6.png" alt="">
           <p>钱包+手机<br>
             挖矿</p>
         </div>
@@ -90,12 +90,12 @@
 
     <div class="wallat-service">
       <div class="otc-service-title wow fadeInUp">
-        <img src="../../assets/img/xiaoshu.png" alt="">
+        <img src="../../../assets/img/xiaoshu.png" alt="">
         <span>服务流程</span>
         <span class="min">一站式的定制性服务的流程</span>
       </div>
       <div class="otc-service-img wow zoomIn">
-        <img src="../../assets/img/fuwuliucheng.png" alt="">
+        <img src="../../../assets/img/fuwuliucheng.png" alt="">
       </div>
 
     </div>
@@ -106,7 +106,7 @@
 </template>
 <script>
   import {WOW} from 'wowjs'
-  import footers from '../../components/footers'
+  import footers from '../../../components/footers'
   export default {
     name: 'wallat',
 
@@ -155,7 +155,7 @@
   .wallat-wrap
     width 100%
     //height 116rem
-    background #0E0F5B url("../../assets/img/beijing.png") no-repeat
+    background #0E0F5B url("../../../assets/img/beijing.png") no-repeat
     background-size 100%
     padding 0 1rem
     box-sizing border-box

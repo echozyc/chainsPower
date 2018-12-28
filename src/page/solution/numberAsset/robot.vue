@@ -2,7 +2,7 @@
     <div class="robot-wrap">
       <div class="robot-top">
         <div class="robot-top-title  wow fadeInLeft">
-          <img src="../../assets/img/xiaoshu.png" alt="">
+          <img src="../../../assets/img/xiaoshu.png" alt="">
           <span>行情系统机器人</span>
         </div>
         <div class="robot-top-text wow fadeInLeft">
@@ -14,17 +14,17 @@
         </div>
         <div class="robot-top-lists wow fadeInLeft">
           <div class="robot-top-list">
-            <img src="../../assets/img/hangqing_ico_1.png" alt="">
+            <img src="../../../assets/img/hangqing_ico_1.png" alt="">
             <p>多维信息<br>
              一手掌握</p>
           </div>
           <div class="robot-top-list">
-            <img src="../../assets/img/hangqing_ico_2.png" alt="">
+            <img src="../../../assets/img/hangqing_ico_2.png" alt="">
             <p>多种数字资产<br>
               关注对比</p>
           </div>
           <div class="robot-top-list">
-            <img src="../../assets/img/hangqing_ico_3.png" alt="">
+            <img src="../../../assets/img/hangqing_ico_3.png" alt="">
             <p>交易所公告<br>
               实时提醒</p>
           </div>
@@ -34,7 +34,7 @@
 
       <div class="robot-middle">
         <div class="robot-middle-title wow fadeInRight">
-          <img src="../../assets/img/xiaoshu.png" alt="">
+          <img src="../../../assets/img/xiaoshu.png" alt="">
           <span>交易系统机器人</span>
         </div>
         <p class="robot-middle-text wow fadeInRight">针对交易所，快速自动委托挂单、委托撤单的交易省去平台内的交易委托的一部一部的手续<br><br>
@@ -42,15 +42,15 @@
           平台可以利用机器人快速赎单，提高平台的交易量。</p>
         <div class="robot-middle-lists wow fadeInRight">
           <div class="robot-middle-list">
-            <img src="../../assets/img/hangqing_ico_4.png" alt="">
+            <img src="../../../assets/img/hangqing_ico_4.png" alt="">
             <p>自动挂单</p>
           </div>
           <div class="robot-middle-list">
-            <img src="../../assets/img/hangqing_ico_4.png" alt="">
+            <img src="../../../assets/img/hangqing_ico_4.png" alt="">
             <p>自动撤单</p>
           </div>
           <div class="robot-middle-list">
-            <img src="../../assets/img/hangqing_ico_6.png" alt="">
+            <img src="../../../assets/img/hangqing_ico_6.png" alt="">
             <p>多交易策略</p>
           </div>
         </div>
@@ -59,12 +59,12 @@
 
       <div class="robot-bottom">
         <div class="robot-top-title wow fadeInUp">
-          <img src="../../assets/img/xiaoshu.png" alt="">
+          <img src="../../../assets/img/xiaoshu.png" alt="">
           <span>服务流程</span>
           <span class="min">一站式的定制性服务的流程</span>
         </div>
         <div class="robot-bottom-img wow zoomIn">
-          <img src="../../assets/img/fuwuliucheng.png" alt="">
+          <img src="../../../assets/img/fuwuliucheng.png" alt="">
         </div>
 
       </div>
@@ -75,7 +75,7 @@
 </template>
 <script>
   import {WOW} from 'wowjs'
-  import footers from '../../components/footers'
+  import footers from '../../../components/footers'
   export default {
     name: 'robot',
 
@@ -106,7 +106,7 @@
   .robot-wrap
     width 100%
     //height 70.69rem
-    background #0E0F5B url("../../assets/img/beijing.png") no-repeat
+    background #0E0F5B url("../../../assets/img/beijing.png") no-repeat
     background-size 100%
     padding 0 1rem
     box-sizing border-box
