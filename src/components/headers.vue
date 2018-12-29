@@ -7,10 +7,10 @@
         <span @click="golang()">English</span>
         <span class="m">|</span>
         <div class="touch" @touchstart="show()">
-
-          <img src="../assets/img/guanbi.png" alt="" class="img2" v-if="choiceShow && message">
-          <img src="../assets/img/ico_mulu@2x.png" alt="" v-else>
+           <img src="../assets/img/guanbi.png" alt="" class="img2" v-if="choiceShow && message">
+           <img src="../assets/img/ico_mulu@2x.png" alt="" v-else>
         </div>
+
       </div>
       <transition name="fade">
         <div class="choice" v-if="choiceShow && message">
@@ -119,6 +119,13 @@
     transform translateY(-100%)
   }
 
+  .f-enter-active, .f-leave-active {
+    transition: all 1.6s
+  }
+  .f-enter, .f-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+  }
+
 
   .blue
     background linear-gradient(180deg,rgba(5,5,128,0.9),rgba(14,14,100,0.9));
@@ -173,16 +180,17 @@
           position absolute
           top 0.1rem
           right 0.5rem
+          z-index 1001
         .img2
           width 1rem
           height 1rem
           top:0
           right 0.6rem
-          z-index 1001
+
     .choice
         width 100%
-        height 100%
-        padding-top 3.2rem
+        /*height 100%*/
+        padding-top 2rem
         box-sizing border-box
         background: #101259
         /*position absolute*/
