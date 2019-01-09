@@ -3,7 +3,7 @@
 
     <div class="content_wrap">
       <div class="title wow fadeInUp">
-        <img src="../../../assets/img/xiaoshu.png" alt="">
+        <img src="../../assets/img/xiaoshu.png" alt="">
         <span>EOS钱包</span>
       </div>
       <p class="introduce wow fadeInUp"> 基于EOS的DAPP分发平台</p>
@@ -14,18 +14,18 @@
         </span>
       </div>
       <div class="imgWrap wow fadeInRight">
-        <img src="../../../assets/img/EOS.png" alt="">
+        <img src="../../assets/img/EOS.png" alt="">
 
       </div>
 
     </div>
     <div class="title wow fadeInUp" style="margin-top: 2.16rem">
-      <img src="../../../assets/img/xiaoshu.png" alt="">
+      <img src="../../assets/img/xiaoshu.png" alt="">
       <span>产品功能</span>
     </div>
     <div class="produce_wrap wow fadeInUp">
       <div class="img_wrap">
-        <img src="../../../assets/img/IPHONE.png" alt="">
+        <img src="../../assets/img/IPHONE.png" alt="">
 
       </div>
       <div class="procduce_content">
@@ -52,24 +52,24 @@
 
     <div class="content_wrap">
       <div class="title wow fadeInUp">
-        <img src="../../../assets/img/xiaoshu.png" alt="">
+        <img src="../../assets/img/xiaoshu.png" alt="">
         <span>产品优势</span>
       </div>
       <div class="applay_lists wow fadeInUp">
         <div class="applay_list">
-          <img src="../../../assets/img/ico_85.png" alt="">
+          <img src="../../assets/img/ico_85.png" alt="">
           <p>安全便捷</p>
         </div>
         <div class="applay_list">
-          <img src="../../../assets/img/ico_73.png" alt="">
+          <img src="../../assets/img/ico_73.png" alt="">
           <p>DAPP分发</p>
         </div>
         <div class="applay_list">
-          <img src="../../../assets/img/ico_24.png" alt="">
+          <img src="../../assets/img/ico_24.png" alt="">
           <p>移动设计</p>
         </div>
         <div class="applay_list">
-          <img src="../../../assets/img/ico_96.png" alt="">
+          <img src="../../assets/img/ico_96.png" alt="">
           <p>流量入口</p>
         </div>
       </div>
@@ -77,12 +77,12 @@
 
     <div class="wallat-service">
       <div class="otc-service-title wow fadeInUp">
-        <img src="../../../assets/img/xiaoshu.png" alt="">
+        <img src="../../assets/img/xiaoshu.png" alt="">
         <span>服务流程</span>
         <span class="min">一站式的定制性服务的流程</span>
       </div>
       <div class="otc-service-img wow zoomIn">
-        <img src="../../../assets/img/fuwuliucheng.png" alt="">
+        <img src="../../assets/img/fuwuliucheng.png" alt="">
       </div>
 
     </div>
@@ -102,7 +102,7 @@
   </div>
 </template>
 <script>
-  import footers from '../../../components/footers'
+  import footers from '../../components/footers'
   import {WOW} from 'wowjs'
   export default {
     name: 'eosdapp',
@@ -160,7 +160,7 @@
 
   .SZSC_wrap
     width 100%
-    background #0E0F5B url("../../../assets/img/beijing.png") no-repeat
+    background #0E0F5B url("../../assets/img/beijing.png") no-repeat
     background-size 100%
     /*padding 0 1rem*/
     box-sizing border-box

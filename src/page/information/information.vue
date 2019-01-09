@@ -3,7 +3,11 @@
       <div class="information-title wow fadeInDown">
         <span @touchstart="choice1()" id="s1" style="color:#0ff">资讯</span>
         <span>|</span>
+        <span @touchstart="choice3()" id="s3">链动资讯</span>
+        <span>|</span>
         <span @touchstart="choice2()" id="s2">公告</span>
+        <span>|</span>
+        <span @touchstart="choice4()" id="s4">学堂</span>
         <div class="img">
           <img src="../../assets/img/zicun_pic_1.png" alt="">
         </div>
@@ -123,6 +127,8 @@
       choice1() {
         document.getElementById('s1').style.color = '#0ff'
         document.getElementById('s2').style.color = 'rgba(255,255,255,0.5)'
+        document.getElementById('s3').style.color = 'rgba(255,255,255,0.5)'
+        document.getElementById('s4').style.color = 'rgba(255,255,255,0.5)'
         this.$router.push('/information/listsZX')
       },
       //
@@ -130,7 +136,27 @@
       choice2() {
         document.getElementById('s2').style.color = '#0ff'
         document.getElementById('s1').style.color = 'rgba(255,255,255,0.5)'
+        document.getElementById('s3').style.color = 'rgba(255,255,255,0.5)'
+        document.getElementById('s4').style.color = 'rgba(255,255,255,0.5)'
         this.$router.push('/information/listsGG')
+      },
+
+      //点击链动资讯
+      choice3() {
+        document.getElementById('s3').style.color = '#0ff'
+        document.getElementById('s2').style.color = 'rgba(255,255,255,0.5)'
+        document.getElementById('s1').style.color = 'rgba(255,255,255,0.5)'
+        document.getElementById('s4').style.color = 'rgba(255,255,255,0.5)'
+        this.$router.push('/information/listsLDZX')
+      },
+      //
+      //点击学堂
+      choice4() {
+        document.getElementById('s4').style.color = '#0ff'
+        document.getElementById('s1').style.color = 'rgba(255,255,255,0.5)'
+        document.getElementById('s2').style.color = 'rgba(255,255,255,0.5)'
+        document.getElementById('s3').style.color = 'rgba(255,255,255,0.5)'
+        this.$router.push('/information/listsXT')
       },
 
       //进去详情页 传参数对应id值

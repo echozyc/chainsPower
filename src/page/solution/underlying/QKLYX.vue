@@ -36,7 +36,7 @@
             }
           },
 
-          advantageTitle: '区块链溯源系统优势',
+          advantageTitle: '区块链游戏系统优势',
           advantage: {
             an1: {
               p1: '数据公开透明：',

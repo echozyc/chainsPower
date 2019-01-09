@@ -119,12 +119,6 @@
     transform translateY(-100%)
   }
 
-  .f-enter-active, .f-leave-active {
-    transition: all 1.6s
-  }
-  .f-enter, .f-leave-to /* .fade-leave-active below version 2.1.8 */ {
-    opacity: 0;
-  }
 
 
   .blue
@@ -188,22 +182,20 @@
           right 0.6rem
 
     .choice
-        width 100%
-        /*height 100%*/
-        padding-top 2rem
-        box-sizing border-box
-        background: #101259
-        /*position absolute*/
-        /*top 3rem*/
-        /*right 0.95rem*/
-        /*padding 0 0.26rem*/
-        /*box-sizing border-box*/
-        /*overflow hidden*/
-        /*z-index 999*/
-        position fixed
-        right 0
-
-
+      width 100%
+      /*height 100%*/
+      padding-top 2rem
+      box-sizing border-box
+      background: #101259
+      /*position absolute*/
+      /*top 3rem*/
+      /*right 0.95rem*/
+      /*padding 0 0.26rem*/
+      /*box-sizing border-box*/
+      /*overflow hidden*/
+      /*z-index 999*/
+      position fixed
+      right 0
       .list
           width 100%
           height 2.78rem

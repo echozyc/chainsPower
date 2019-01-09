@@ -27,12 +27,14 @@ const Solution = () => import ('../page/solution/solution')
   const DSJRGZN = () => import ('../page/solution/underlying/DSJRGZN')
   const JFLM = () => import ('../page/solution/underlying/JFLM')
 
-const EosDapp = () => import ('../page/solution/EosDapp/eosDapp')
+const EosDapp = () => import ('../page/EosDapp/eosDapp')
 
 const Information = () => import ('../page/information/information')
   const Detail = () => import ('../page/information/detail')
   const ListsZX = () => import ('../page/information/listsZX')
   const ListsGG = () => import ('../page/information/listsGG')
+  const ListsLDZX = () => import ('../page/information/listsLDZX')
+  const ListsXT = () => import ('../page/information/listsXT')
 
 
 const Promote = () => import ('../page/promote/promote')
@@ -86,6 +88,14 @@ export default new Router({
         {
           path: '/information/listsGG',
           component: ListsGG,
+        },
+        {
+          path: '/information/listsLDZX',
+          component: ListsLDZX,
+        },
+        {
+          path: '/information/listsXT',
+          component: ListsXT,
         }
       ]
     },

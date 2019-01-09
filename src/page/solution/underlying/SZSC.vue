@@ -3,16 +3,16 @@
     <solutionList></solutionList>
 
     <div class="content_wrap">
-      <div class="title wow fadeInUp">
-        <img src="../../../assets/img/xiaoshu.png" alt="">
-        <span>传统VS区块链</span>
-      </div>
       <div class="compare_text wow fadeInUp an1">
         <span>
           基于区块链技术打造的数字电商生态系统。可以是中心化或者去中心化的数字商城，数字商城是一个数字化商品的流通平台。
           平台通过区块链技术实现全球优质商品的数字化，并在商城进行流通。 商城通过为用户提供优质的数字化商品服务， 吸引广大用户在商城进行投资消费。
           同时， 通过用户流量的增加引入更多的商家进行商品数字化上架销售， 形成商城的良性循环， 最终构建数字商城的强大的生态系统。
         </span>
+      </div>
+      <div class="title wow fadeInUp">
+        <img src="../../../assets/img/xiaoshu.png" alt="">
+        <span>传统VS区块链</span>
       </div>
       <div class="compare_lists">
         <div class="compare_list wow fadeInUp an2">
@@ -38,7 +38,7 @@
           <span> 区块链的匿名性和多层验证，信息安全 </span><br>
         </div>
       </div>
-      <div class="title wow fadeInUp" style="margin-top: 4.47rem">
+      <div class="title wow fadeInUp" style="margin-top: 2.47rem">
         <img src="../../../assets/img/xiaoshu.png" alt="">
         <span>数字商城优势</span>
       </div>
@@ -66,7 +66,7 @@
 
       </div>
     </div>
-    <div class="title wow fadeInUp" style="margin-top: 4.47rem">
+    <div class="title wow fadeInUp" style="margin-top: 2.47rem">
       <img src="../../../assets/img/xiaoshu.png" alt="">
       <span>数字商城解决方案</span>
     </div>
@@ -212,13 +212,14 @@
       width 100%
       padding 0 1rem
       box-sizing border-box
-      margin-top 2.4rem
+      margin-top 1rem
       .title
         width 100%
         height 1.84rem
         line-height 1.84rem
         //background aqua
         position relative
+        margin-top 1.4rem
         img
           width 2.03rem
           height 1.84rem
@@ -338,6 +339,7 @@
       width 100%
       height 15rem
       margin-top 1.8rem
+      margin-bottom 3.3rem
       overflow hidden
       /*background #00ffdf*/
       .img_wrap

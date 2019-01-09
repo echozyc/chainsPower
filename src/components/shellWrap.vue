@@ -3,13 +3,13 @@
     <solutionList></solutionList>
 
     <div class="content_wrap">
-      <div class="title wow fadeInUp">
-        <img src="../assets/img/xiaoshu.png" alt="">
-        <span>传统VS区块链</span>
-      </div>
       <div class="compare_text wow fadeInUp an1">
         <span v-html="content.text1">
         </span>
+      </div>
+      <div class="title wow fadeInUp">
+        <img src="../assets/img/xiaoshu.png" alt="">
+        <span>传统VS区块链</span>
       </div>
       <div class="compare_lists">
         <div class="compare_list wow fadeInUp an2">
@@ -31,7 +31,7 @@
           </div>
         </div>
       </div>
-      <div class="title wow fadeInUp" style="margin-top: 4.47rem">
+      <div class="title wow fadeInUp" style="margin-top: 2.47rem">
         <img src="../assets/img/xiaoshu.png" alt="">
         <span>{{content.advantageTitle}}</span>
       </div>
@@ -42,7 +42,7 @@
         </div>
       </div>
     </div>
-    <div class="title wow fadeInUp" style="margin-top: 4.47rem">
+    <div class="title wow fadeInUp" style="margin-top: 2.47rem">
       <img src="../assets/img/xiaoshu.png" alt="">
       <span>解决方案</span>
     </div>
@@ -159,13 +159,14 @@
       width 100%
       padding 0 1rem
       box-sizing border-box
-      margin-top 2.4rem
+      margin-top 1rem
       .title
         width 100%
         height 1.84rem
         line-height 1.84rem
         //background aqua
         position relative
+        margin-top 1.4rem
         img
           width 2.03rem
           height 1.84rem
@@ -282,6 +283,7 @@
       width 100%
       height 13rem
       margin-top 2.3rem
+      margin-bottom 3.3rem
       overflow hidden
       /*background #00ffdf*/
       .img_wrap

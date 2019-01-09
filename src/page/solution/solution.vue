@@ -153,7 +153,7 @@
 
     .solution-middle-wrap
       width 100%
-      height 26rem
+      height 23rem
       //background #C81623
       overflow hidden
       .solution-middle-title
