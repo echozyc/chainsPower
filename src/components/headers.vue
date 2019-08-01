@@ -7,10 +7,10 @@
         <span @click="golang()">English</span>
         <span class="m">|</span>
         <div class="touch" @touchstart="show()">
-
-          <img src="../assets/img/guanbi.png" alt="" class="img2" v-if="choiceShow && message">
-          <img src="../assets/img/ico_mulu@2x.png" alt="" v-else>
+           <img src="../assets/img/guanbi.png" alt="" class="img2" v-if="choiceShow && message">
+           <img src="../assets/img/ico_mulu@2x.png" alt="" v-else>
         </div>
+
       </div>
       <transition name="fade">
         <div class="choice" v-if="choiceShow && message">
@@ -19,6 +19,8 @@
 
         <div class="list" @click="goto('/solution')" ><span :class="{on:isCurrent('/solution')}">解决方案</span></div>
 
+        <div class="list" @click="goto('/eosdapp')" ><span :class="{on:isCurrent('/eosdapp')}">EosDapp</span></div>
+
         <div class="list" @click="goto('/promote')" ><span :class="{on:isCurrent('/promote')}">全案推广</span></div>
 
         <div class="list" @click="liandong()"><span>链动云</span></div>
@@ -26,6 +28,15 @@
         <div class="list" @click="goto('/information')"><span :class="{on:isCurrent('/information')}">资讯动态</span></div>
       </div>
       </transition>
+
+      <!--<div class="layerWrap" v-show="showLayer">-->
+        <!--<div class="listsWrap">-->
+          <!--<div class="lists">-->
+            <!--<div class="list" @click="goto('/home')"><span :class="{on:isCurrent('/home')}">首页</span></div>-->
+
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
     </div>
 </template>
 <script>
@@ -40,7 +51,8 @@
       data() {
         return {
           choiceShow: false,
-          scrollTop: ''
+          scrollTop: '',
+          showLayer: false
         }
       },
 
@@ -50,13 +62,9 @@
         show() {
           this.choiceShow = !this.choiceShow
           this.$emit('showChoice',this.choiceShow)
-          console.log(this.choiceShow)
-          //如果弹出层出现 页面禁止滚动
-          // if(this.choiceShow === true) {
-          //
-          // } else if(this.choiceShow === false) {
-          //
-          // }
+          // this.showLayer = true
+          // document.documentElement.style.overflow='hidden';
+
         },
 
         isCurrent(path) {
@@ -103,11 +111,14 @@
 </script>
 <style scoped lang="stylus">
   .fade-enter-active, .fade-leave-active {
-    transition: opacity 0.6s
+    transition: all 0.6s
+    transform translateY(0)
   }
   .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
-    opacity: 0;
+    /*opacity: 0;*/
+    transform translateY(-100%)
   }
+
 
 
   .blue
@@ -163,30 +174,36 @@
           position absolute
           top 0.1rem
           right 0.5rem
+          z-index 1001
         .img2
           width 1rem
           height 1rem
           top:0
           right 0.6rem
+
     .choice
-        width 6.25rem
-        //height 8.5rem
-        background: #2B2EB2
-        border-radius:0.5rem;
-        position absolute
-        top 3rem
-        right 0.95rem
-        padding 0 0.26rem
-        box-sizing border-box
-        overflow hidden
-        z-index 999
-        //transition all linear 2s
-        .list
+      width 100%
+      /*height 100%*/
+      padding-top 2rem
+      box-sizing border-box
+      background: #101259
+      /*position absolute*/
+      /*top 3rem*/
+      /*right 0.95rem*/
+      /*padding 0 0.26rem*/
+      /*box-sizing border-box*/
+      /*overflow hidden*/
+      /*z-index 999*/
+      position fixed
+      right 0
+      .list
           width 100%
           height 2.78rem
           //border-bottom  1px solid rgba(238,238,238,1)
-          text-align center
+          /*text-align center*/
           line-height 2.78rem
+          text-align center
+          box-sizing border-box
           span
             font-size:0.94rem;
             font-weight:bold;
@@ -196,7 +213,33 @@
 
 
 
+    .asideWrap
+      width 6rem
+      height 100%
+      background white
+      float right
 
 
+  .layerWrap
+    width 100%
+    height 100%
+    position fixed
+    z-index 1000
+    top 0
+    left 0
+    background rgba(0,0,0,0.8)
+    .listsWrap
+      width 10rem
+      height 100%
+      background rgba(255,255,255,1)
+      float right
+      .lists
+        margin-top 4rem
+        padding 0 2rem
+        box-sizing border-box
+        .list
+          font-size 0.94rem
+          color #333333
+          font-weight 600
 
 </style>

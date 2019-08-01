@@ -25,28 +25,9 @@
        <div class="solution-middle-img wow fadeInUp">
          <img src="../../assets/img/jiejuefangan_pic_2.png" alt="">
        </div>
-       <div class="solution-middle-lists">
-         <div class="solution-middle-list wow fadeInLeft" @click="goto('/solution/otc')">
-           <img src="../../assets/img/icon_1.png" alt="">
-           <p>OTC场外<br>交易系统</p>
-           <img src="../../assets/img/liaojiegengduo.png" alt="" class="moreImg">
-         </div>
-         <div class="solution-middle-list  wow fadeInLeft" @click="goto('/solution/bibi')">
-           <img src="../../assets/img/icon_2.png" alt="">
-           <p>币币交易<br>系统</p>
-           <img src="../../assets/img/liaojiegengduo.png" alt="" class="moreImg">
-         </div>
-         <div class="solution-middle-list  wow fadeInRight" @click="goto('/solution/futures')">
-           <img src="../../assets/img/icon_3.png" alt="">
-           <p>期货交易<br>系统</p>
-           <img src="../../assets/img/liaojiegengduo.png" alt="" class="moreImg">
-         </div>
-         <div class="solution-middle-list  wow fadeInRight" @click="goto('/solution/robot')">
-           <img src="../../assets/img/icon_4.png" alt="">
-           <p>机器人</p>
-           <img src="../../assets/img/liaojiegengduo.png" alt="" class="moreImg">
-         </div>
-
+       <div class="button  wow fadeInUp" @click="goto('/solution/numberAsset')">
+         <span>了解更多</span>
+         <img src="../../assets/img/jiantou.png" alt="">
        </div>
 
      </div>
@@ -172,7 +153,7 @@
 
     .solution-middle-wrap
       width 100%
-      height 26rem
+      height 23rem
       //background #C81623
       overflow hidden
       .solution-middle-title
@@ -207,36 +188,23 @@
           height 100%
 
 
-      .solution-middle-lists
+      .button
         width 100%
-        height 6.99rem
-        //background white
-        margin-top 1.13rem
-        display flex
-        justify-content space-around
-        .solution-middle-list
-          width 5.08rem
-          height 100%
-          //border: 0.5px solid #00FFDF
-          border-radius: 0.3rem
-          text-align center
-          float left
-          background #0D34A4
-          position relative
-          img
-            width 2.5rem
-            height 2.5rem
-            margin 0.54rem auto 0.49rem
-          p
-            font-size:0.75rem;
-            font-weight:500;
-            color:rgba(255,255,255,1);
-            line-height:1.24rem;
-          .moreImg
-            position absolute
-            bottom -2rem
-            left 1.3rem
-
+        height 2.19rem
+        line-height 2.29rem
+        background:linear-gradient(90deg,rgba(43,88,245,1),rgba(0,246,255,1));
+        border-radius:0.3rem;
+        margin-top 1.56rem
+        text-align center
+        span
+          font-size:0.94rem;
+          font-weight:bold;
+          color:rgba(255,255,255,1);
+        img
+          width 0.94rem
+          height 0.94rem
+          margin-left 0.69rem
+          margin-top -0.2rem
 
 
     .solution-bottom-wrap

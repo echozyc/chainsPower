@@ -2,13 +2,13 @@
     <div class="otc-wrap">
       <div class="otc-top">
         <div class="otc-top-title wow fadeInLeft">
-          <img src="../../assets/img/xiaoshu.png" alt="">
+          <img src="../../../assets/img/xiaoshu.png" alt="">
           <span>OTC场外交易系统</span>
         </div>
 
 
         <div class="otc-top-img wow fadeInLeft">
-          <img src="../../assets/img/OTC_pic_1.png" alt="">
+          <img src="../../../assets/img/OTC_pic_1.png" alt="">
         </div>
         <div class="otc-top-text wow fadeInLeft">
           <span>
@@ -26,60 +26,60 @@
 
       <div class="otc-system">
         <div class="otc-system-title wow fadeInUp">
-          <img src="../../assets/img/xiaoshu.png" alt="">
+          <img src="../../../assets/img/xiaoshu.png" alt="">
           <span>系统优点</span>
         </div>
         <div class="otc-system-lists">
           <div class="otc-system-list wow fadeInUp">
-            <img src="../../assets/img/OTC_ico_1.png" alt="">
+            <img src="../../../assets/img/OTC_ico_1.png" alt="">
             <p>分布式<br>架构</p>
           </div>
           <div class="otc-system-list wow fadeInUp">
-            <img src="../../assets/img/OTC_ico_2.png" alt="">
+            <img src="../../../assets/img/OTC_ico_2.png" alt="">
             <p>多币种、多<br>语言支持</p>
           </div>
           <div class="otc-system-list wow fadeInUp">
-            <img src="../../assets/img/OTC_ico_3.png" alt="">
+            <img src="../../../assets/img/OTC_ico_3.png" alt="">
             <p>支持多<br>
               支付通道</p>
           </div>
           <div class="otc-system-list wow fadeInUp">
-            <img src="../../assets/img/OTC_ico_4.png" alt="">
+            <img src="../../../assets/img/OTC_ico_4.png" alt="">
             <p>GOOGLE<br>
               双重认证</p>
           </div>
 
           <div class="otc-system-list wow fadeInUp">
-            <img src="../../assets/img/OTC_ico_5.png" alt="">
+            <img src="../../../assets/img/OTC_ico_5.png" alt="">
             <p>安全体系</p>
           </div>
           <div class="otc-system-list wow fadeInUp">
-            <img src="../../assets/img/OTC_ico_6.png" alt="">
+            <img src="../../../assets/img/OTC_ico_6.png" alt="">
             <p>风控系统</p>
           </div>
           <div class="otc-system-list wow fadeInUp">
-            <img src="../../assets/img/OTC_ico_7.png" alt="">
+            <img src="../../../assets/img/OTC_ico_7.png" alt="">
             <p>行情图表</p>
           </div>
           <div class="otc-system-list wow fadeInUp">
-            <img src="../../assets/img/OTC_ico_8.png" alt="">
+            <img src="../../../assets/img/OTC_ico_8.png" alt="">
             <p>财务系统</p>
           </div>
 
           <div class="otc-system-list wow fadeInUp">
-            <img src="../../assets/img/OTC_ico_9.png" alt="">
+            <img src="../../../assets/img/OTC_ico_9.png" alt="">
             <p>冷热钱包</p>
           </div>
           <div class="otc-system-list wow fadeInUp">
-            <img src="../../assets/img/OTC_ico_10.png" alt="">
+            <img src="../../../assets/img/OTC_ico_10.png" alt="">
             <p>撮合系统</p>
           </div>
           <div class="otc-system-list wow fadeInUp">
-            <img src="../../assets/img/OTC_ico_11.png" alt="">
+            <img src="../../../assets/img/OTC_ico_11.png" alt="">
             <p>全球短信<br>网关</p>
           </div>
           <div class="otc-system-list wow fadeInUp">
-            <img src="../../assets/img/OTC_ico_12.png" alt="">
+            <img src="../../../assets/img/OTC_ico_12.png" alt="">
             <p>交易即<br>挖矿</p>
           </div>
 
@@ -89,26 +89,26 @@
 
       <div class="otc-produce">
         <div class="otc-produce-title wow fadeInUp">
-          <img src="../../assets/img/xiaoshu.png" alt="">
+          <img src="../../../assets/img/xiaoshu.png" alt="">
           <span>产品优点</span>
         </div>
         <div class="otc-produce-lists wow fadeInUp">
           <div class="otc-produce-list">
-            <img src="../../assets/img/OTC_ico_13.png" alt="">
+            <img src="../../../assets/img/OTC_ico_13.png" alt="">
             <p>一站式服务<br>
               最贴心</p>
           </div>
           <div class="otc-produce-list">
-            <img src="../../assets/img/OTC_ico_14.png" alt="">
+            <img src="../../../assets/img/OTC_ico_14.png" alt="">
             <p>成熟产品、部署快、成本低</p>
           </div>
           <div class="otc-produce-list">
-            <img src="../../assets/img/OTC_ico_15.png" alt="">
+            <img src="../../../assets/img/OTC_ico_15.png" alt="">
             <p>移动交易<br>
               更便捷</p>
           </div>
           <div class="otc-produce-list">
-            <img src="../../assets/img/OTC_ico_16.png" alt="">
+            <img src="../../../assets/img/OTC_ico_16.png" alt="">
             <p>支持多语言<br>
               多币种开发</p>
           </div>
@@ -118,12 +118,12 @@
 
       <div class="otc-service">
         <div class="otc-service-title wow fadeInUp">
-          <img src="../../assets/img/xiaoshu.png" alt="">
+          <img src="../../../assets/img/xiaoshu.png" alt="">
           <span>服务流程</span>
           <span class="min">一站式的定制性服务的流程</span>
         </div>
         <div class="otc-service-img wow zoomIn">
-          <img src="../../assets/img/fuwuliucheng.png" alt="">
+          <img src="../../../assets/img/fuwuliucheng.png" alt="">
         </div>
 
       </div>
@@ -135,7 +135,7 @@
 </template>
 <script>
    import {WOW} from 'wowjs'
-   import footers from '../../components/footers'
+   import footers from '../../../components/footers'
    export default {
      name: 'otc',
 
@@ -166,7 +166,7 @@
   .otc-wrap
     width 100%
     //height 105.44rem
-    background #0E0F5B url("../../assets/img/beijing.png") no-repeat
+    background #0E0F5B url("../../../assets/img/beijing.png") no-repeat
     background-size 100%
     padding 0 1rem
     box-sizing border-box

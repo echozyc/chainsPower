@@ -44,6 +44,14 @@ api.information = params => {
 //获取公告
 api.announcement = params => {
   return fetch (urls.announcementApi,params,'get')
+},
+//获取链动资讯
+api.chains = params => {
+  return fetch (urls.chainsApi,params,'get')
+},
+//获取学堂
+api.school = params => {
+  return fetch (urls.schoolApi,params,'get')
 }
 //获取热门资讯
 api.hotInformation = params => {

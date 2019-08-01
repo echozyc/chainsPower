@@ -17,9 +17,9 @@ import 'swiper/dist/css/swiper.min.css';
 Vue.use(MintUI)
 
 //跳转路由回到顶部
-router.afterEach((to,from,next) => {
-  window.scrollTo(0,0);
-})
+// router.afterEach((to,from,next) => {
+//   window.scrollTo(0,0);
+// })
 
 Vue.config.productionTip = false
 

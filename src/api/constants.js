@@ -1,9 +1,9 @@
 
 const urls = {
   server :{
-    development: 'http://47.97.198.80:8080/power',
-     //production: 'http://192.168.1.206:8080/power'
-    production: 'http://47.97.198.80:8080/power'
+    // development: 'http://47.97.198.80:8080/power',
+    development: 'http://47.244.128.109:8080/power',
+    production: 'http://47.244.128.109:8080/power'
   },
   //获取资讯
   informationApi: {
@@ -12,6 +12,14 @@ const urls = {
   //获取公告
   announcementApi: {
     url: '/news/list/2'
+  },
+  //获取链动资讯
+  chainsApi: {
+    url: '/news/list/3'
+  },
+  //获取学堂
+  schoolApi: {
+    url: '/news/list/4'
   },
   //获取热门资讯
   hotInformationApi: {

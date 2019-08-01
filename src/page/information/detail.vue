@@ -26,10 +26,9 @@
         title: this.detail.title,
         // 这里定义titleTemplate会覆盖App.vue中的定义
         // titleTemplate: this.detail.title,
-        meta: [
-          { name: 'description', itemprop: "description", content: this.detail.abstracts},
-          { itemprop: "image", content: this.detail.mainImg}
-        ]
+        // meta: [
+        //   { name: 'description', itemprop: "description", content: this.detail.abstracts},
+        // ]
       }
     },
 
@@ -61,6 +60,7 @@
         });
         console.log(res.data.data)
         this.detail = res.data.data
+
       },
 
     },
@@ -68,7 +68,7 @@
     mounted() {
      this.id = this.$route.query.id;
      this.wow();
-     this.getDetail()
+     this.getDetail();
     }
   }
 </script>
@@ -90,6 +90,8 @@
         overflow: hidden;
         text-overflow:ellipsis;//文本溢出显示省略号
         white-space:nowrap;//文本不会换行（单行文本溢出）
+        color:rgba(0,255,223,1);
+        font-size:0.94rem;
         span
           font-size:0.94rem;
           font-weight:bold;
@@ -111,8 +113,14 @@
           font-weight:500;
           color:rgba(255,255,255,1);
           line-height:1.13rem;
+          overflow hidden
 
 
 
 
+</style>
+<style>
+  .content img{
+    width: 22rem;
+  }
 </style>
